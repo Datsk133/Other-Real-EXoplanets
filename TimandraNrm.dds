@@ -1,0 +1,77 @@
+ParallaxTerrain
+{
+	Body
+	{
+		name = Philonoe
+		emissive = False
+		ShaderProperties
+		{
+			_MainTexLow = Parallax_StockTerrainTextures/Mun/PluginData/mid00.dds
+			_MainTexMid = Parallax_StockTerrainTextures/Mun/PluginData/mid00.dds
+			_MainTexHigh = Parallax_StockTerrainTextures/Mun/PluginData/mid00.dds
+			_MainTexSteep = Parallax_StockTerrainTextures/Mun/PluginData/steep00.dds
+			_BumpMapLow = Parallax_StockTerrainTextures/Mun/PluginData/mid01.dds
+			_BumpMapMid = Parallax_StockTerrainTextures/Mun/PluginData/mid01.dds
+			_BumpMapHigh = Parallax_StockTerrainTextures/Mun/PluginData/mid01.dds
+			_BumpMapSteep = Parallax_StockTerrainTextures/Mun/PluginData/steep01.dds
+			_InfluenceMap = Parallax_StockTerrainTextures/Mun/PluginData/influence.dds
+			_DisplacementMap = Parallax_StockTerrainTextures/Mun/PluginData/displacement.dds
+			_OcclusionMap = Parallax_StockTerrainTextures/Mun/PluginData/occlusion.dds
+			_DisplacementScale = 0.500000003
+			_DisplacementOffset = -0.5
+			_LowMidBlendStart = -10000
+			_LowMidBlendEnd = -10001
+			_MidHighBlendStart = 90002
+			_MidHighBlendEnd = 90003
+			_SteepPower = 5
+			_SteepContrast = 4
+			_SteepMidpoint = 0.731000006
+			_SpecularPower = 0.5
+			_SpecularIntensity = 0.100000012
+			_FresnelPower = 0.800000012
+			_EnvironmentMapFactor = 1
+			_RefractionIntensity = 0
+			_Tiling = 0.00700000003
+			_Hapke = 0.879999995
+			_BumpScale = 2
+			_EmissionColor = 10,10,10,1
+		}
+	}
+	Body
+	{
+		name = Timandra
+		emissive = False
+		ShaderProperties
+		{
+			_MainTexLow = Parallax_StockTerrainTextures/Mun/PluginData/mid00.dds
+			_MainTexMid = Parallax_StockTerrainTextures/Mun/PluginData/mid00.dds
+			_MainTexHigh = Parallax_StockTerrainTextures/Mun/PluginData/mid00.dds
+			_MainTexSteep = Parallax_StockTerrainTextures/Mun/PluginData/steep00.dds
+			_BumpMapLow = Parallax_StockTerrainTextures/Mun/PluginData/mid01.dds
+			_BumpMapMid = Parallax_StockTerrainTextures/Mun/PluginData/mid01.dds
+			_BumpMapHigh = Parallax_StockTerrainTextures/Mun/PluginData/mid01.dds
+			_BumpMapSteep = Parallax_StockTerrainTextures/Mun/PluginData/steep01.dds
+			_InfluenceMap = Parallax_StockTerrainTextures/Mun/PluginData/influence.dds
+			_DisplacementMap = Parallax_StockTerrainTextures/Mun/PluginData/displacement.dds
+			_OcclusionMap = Parallax_StockTerrainTextures/Mun/PluginData/occlusion.dds
+			_DisplacementScale = 0.500000003
+			_DisplacementOffset = -0.5
+			_LowMidBlendStart = -10000
+			_LowMidBlendEnd = -10001
+			_MidHighBlendStart = 90002
+			_MidHighBlendEnd = 90003
+			_SteepPower = 5
+			_SteepContrast = 4
+			_SteepMidpoint = 0.731000006
+			_SpecularPower = 0.5
+			_SpecularIntensity = 0.100000012
+			_FresnelPower = 0.800000012
+			_EnvironmentMapFactor = 1
+			_RefractionIntensity = 0
+			_Tiling = 0.00700000003
+			_Hapke = 0.879999995
+			_BumpScale = 2
+			_EmissionColor = 10,10,10,1
+		}
+	}
+}

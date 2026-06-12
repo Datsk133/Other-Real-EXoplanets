@@ -1,0 +1,92 @@
+ParallaxScatters
+{
+    Body
+    {
+        name = Timandra
+	    configVersion = 2
+	    Scatter
+	    {
+	    	name = TinyRocks
+	    	model = Parallax_StockScatterTextures/Models/Mun/clusterofsmalls
+	    	collisionLevel = 1
+	    	Optimizations
+	    	{
+	    		frustumCullingStartRange = 10
+	    		frustumCullingScreenMargin = -10
+	    		maxRenderableObjectsLOD0 = 200
+				maxRenderableObjectsLOD1 = 750
+				maxRenderableObjectsLOD2 = 2000
+	    	}
+	    	SubdivisionSettings
+	    	{
+	    		subdivisionRangeMode = noSubdivision
+	    	}
+	    	DistributionNoise
+	    	{
+	    		noiseType = simplexPerlin
+	    		inverted = False
+	    		frequency = 1750
+	    		octaves = 5
+	    		lacunarity = 3
+	    		seed = 4
+	    	}
+	    	Material
+	    	{
+	    		shader = Custom/ParallaxInstancedSolid
+	    		_MainTex = Parallax_StockScatterTextures/Textures/Mun/PluginData/rockatlas.dds
+	    		_BumpMap = Parallax_StockScatterTextures/Textures/Mun/PluginData/rockatlasnrm.dds
+	    		_SpecularPower = 15
+	    		_SpecularIntensity = 0.021
+	    		_FresnelPower = 4
+	    		_EnvironmentMapFactor = 1
+	    		_BumpScale = 1
+                _Hapke = 0.44
+	    		_FresnelColor = 0.00599999982,0.00599999982,0.00599999982,1
+	    		_Color = 0.4,0.4,0.4,1
+	    		_CullMode = 2
+	    		Keywords
+	    		{
+	    		}
+	    	}
+	    	Distribution
+	    	{
+	    		seed = 2.336
+	    		spawnChance = 1
+	    		range = 175
+	    		populationMultiplier = 5
+	    		minScale = 0.099999996,0.099999996,0.099999996
+	    		maxScale = 0.299999993,0.299999993,0.299999993
+	    		scaleRandomness = 0.75
+	    		cutoffScale = 0.150000006
+	    		steepPower = 8
+	    		steepContrast = 4.5
+	    		steepMidpoint = 0.731000006
+	    		maxNormalDeviance = 0.10000024
+	    		minAltitude = -1000
+	    		maxAltitude = 10000
+	    		altitudeFadeRange = 10
+	    		alignToTerrainNormal = True
+	    		coloredByTerrain = false
+	    		LODs
+	    		{
+	    			LOD
+	    			{
+	    				model = Parallax_StockScatterTextures/Models/Mun/clusterofsmalls2
+	    				range = 15.000001
+	    				MaterialOverride
+	    				{
+	    				}
+	    			}
+	    			LOD
+	    			{
+	    				model = Parallax_StockScatterTextures/Models/Mun/clusterofsmalls3
+	    				range = 30.0000019
+	    				MaterialOverride
+	    				{
+	    				}
+	    			}
+	    		}
+	    	}
+	    }
+    }
+}
