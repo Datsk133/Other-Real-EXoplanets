@@ -21,7 +21,7 @@ EVE V5
 
 Parallax continued
 
-NOT INCLUDED IN 1.0
+NOT INCLUDED IN 1.0:
 
 Sol real and quarter scale
 
