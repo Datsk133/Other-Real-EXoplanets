@@ -28,3 +28,6 @@ Sol real and quarter scale
 Stock 2.5x
 
 MANY NEW WORLDS TO EXPLORE ARE WAITING FOR YOU!
+
+<img width="1920" height="1080" alt="screenshot111" src="https://github.com/user-attachments/assets/874f7046-79c2-4c6a-86e8-4ee3d37d7a52" />
+
