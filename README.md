@@ -24,3 +24,5 @@ Parallax continued
 Sol real and quarter scale
 
 Stock 2.5x
+
+MANY NEW WORLDS TO EXPLORE ARE WAITING FOR YOU!
