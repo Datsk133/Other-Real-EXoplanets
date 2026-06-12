@@ -21,6 +21,8 @@ EVE V5
 
 Parallax continued
 
+NOT INCLUDED IN 1.0
+
 Sol real and quarter scale
 
 Stock 2.5x
